@@ -619,14 +619,14 @@ Do you want to continue [Y/n]?<span class="highlight-3">Y </span>
 							<p class="highlight-2"><b>ABSOLUTAMENTE NUNCA</b> debe realizar un "upgrade" ni un "dist-upgrade" mientras esté en el ambiente gráfico X. Siempre revise la sección "Current Warnings" en la página web principal de <a href="http://aptosid.com">aptosid</a>. Estos avisos están allí por razón de la naturaleza de "Debian sid/unstable" y porque se actualiza diariamente.</p>
 
 <pre>
-## Salga de KDE.  
-## Entre al modo texto presionando Ctrl+Alt+F1
-## entonces haga login como "root" y después teclee:
-service kdm stop  ##Si usa otro gestor de ventanas reemplace kdm, por ejemplo con gdm
+## Log out of KDE.  
+## Go to Textmode by doing Ctrl+Alt+F1
+## logon as root, and then type:
+service kdm stop  ##If using another window manager replace kdm, for example with gdm
 apt-get update
 apt-get dist-upgrade
 apt-get clean
-service kdm start ##Si usa otro gestor de ventanas reemplace kdm, por ejemplo con gdm
+service kdm start ##If using another window manager replace kdm, for example with gdm
 </pre>
 
 							<p class="highlight-2"><b>NUNCA HAGA el DIST-UPGRADE (ni UPGRADE) con ADEPT o SYNAPTIC</b></p>
@@ -745,7 +745,7 @@ apt-get install packagesearch
 	</div>-->
 			<p><a href="http://www.debian.org/doc/manuals/apt-howto/">Una descripción completa del APT-System puede encontrarse en el APT-HOWTO</a> </p>
 
-			<div id="rev">Última modificación 26/10/2014 1305 UTC</div>
+			<div id="rev">Última modificación 31/12/2014 1540 UTC </div>
 
 </div>
 </div>

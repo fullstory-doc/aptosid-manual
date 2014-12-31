@@ -742,13 +742,14 @@ Do you want to continue [Y/n]?<span class="highlight-3">Y </span>
 
 <!--- ####
 <pre>
-Log out of KDE.
-Go to Textmode by doing Ctrl+Alt+F1
-logon as root, and then in type init 3
+## Log out of KDE.  
+## Go to Textmode by doing Ctrl+Alt+F1
+## logon as root, and then type:
+service kdm stop  ##If using another window manager replace kdm, for example with gdm
 apt-get update
 apt-get dist-upgrade
-
-init 5 &amp;&amp; exit
+apt-get clean
+service kdm start ##If using another window manager replace kdm, for example with gdm
 </pre>
 #### -->
 <pre>
@@ -933,7 +934,7 @@ apt-get install packagesearch
 
 			<p><a href="http://www.debian.org/doc/manuals/apt-howto/">(英語版はこちらへ)</a> </p>
 
-			<div id="rev">Page last revised 26/10/2014 1305 UTC </div>
+			<div id="rev">Page last revised 31/12/2014 1540 UTC </div>
 
 </div>
 </div>
