@@ -435,42 +435,42 @@ http://paste.debian.net/</a>:παρακαλώ μην
 							<!--p>You will then see that your entry has been added to the database with several options to link the paste to IRC which is the address that the channel requires you to provide. (Example: <span class="highlight-3">To link to your entry use: http://paste.debian.net/524</span> ).  Debian paste can set to display the information for specific duration (up to 72 hours). You also have the option to delete the paste/data.</p>-->
 							<p>Έπειτα θα δείτε ότι η είσοδός σας έχει προστεθεί στη βάση δεδομένων με διάφορες επιλογές για να συνδεθεί η επικόλληση με το IRC, που είναι η διεύθυνση που το κανάλι απαιτεί να δώσετε. (Παράδειγμα: Για να συνδεθείτε με την είσοδό (entry) σας: http://paste.debian.net/524). Η επικόλληση (paste) Debian μπορεί να ρυθμιστεί να δείχνει τις πληροφορίες για ένα συγκεκριμένο χρονικό διάστημα (μέχρι 72 ώρες). Έχετε επίσης την επιλογή να διαγράψετε τα paste / στοιχεία.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<!--p>aptosid-paste will to allow you to paste the output of files from the terminal and tty, therefore it is ideal if you are in trouble in init 3. aptosid-paste uses http://rafb.net as the link, and the output is availble for 24 hours. </p>-->
-						<p>Το aptosid-paste θα επιτρέψει σε σας να επικολλήσετε την έξοδο (output) αρχείων από το τερματικό και tty, επομένως είναι ιδανικό εάν αντιμετωπίζεται προβλήματα στο init 3. Το aptosid-paste χρησιμοποιεί το http://rafb.net για σύνδεσμο και η έξοδος (output) είναι διαθέσιμη για 24 ώρες.</p>
+						<!--p>pastebinit will to allow you to paste the output of files from the terminal and tty, therefore it is ideal if you are in trouble in init 3. pastebinit uses http://rafb.net as the link, and the output is availble for 24 hours. </p>-->
+						<p>Το pastebinit θα επιτρέψει σε σας να επικολλήσετε την έξοδο (output) αρχείων από το τερματικό και tty, επομένως είναι ιδανικό εάν αντιμετωπίζεται προβλήματα στο init 3. Το pastebinit χρησιμοποιεί το http://rafb.net για σύνδεσμο και η έξοδος (output) είναι διαθέσιμη για 24 ώρες.</p>
 
 						<!--p>You can be as user or root to enable aptosid paste, however note that some requests for output requires root access.</p>-->
-						<p>Μπορείτε να είστε ως απλός χρήστης (user) ή διαχειριστής (root) για να επιτραπεί το aptosid-paste, εντούτοις, σημειώστε ότι μερικά αιτήματα για την παραγωγή (output) απαιτούν την πρόσβαση διαχειριστή (root).</p>
+						<p>Μπορείτε να είστε ως απλός χρήστης (user) ή διαχειριστής (root) για να επιτραπεί το pastebinit, εντούτοις, σημειώστε ότι μερικά αιτήματα για την παραγωγή (output) απαιτούν την πρόσβαση διαχειριστή (root).</p>
 
 <pre>
-aptosid-paste &lt;file&gt;
+pastebinit &lt;file&gt;
 ή
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<!--h6>Example of aptosid-paste &lt;file&gt;</h6>-->
-					<h6>Παράδειγμα του aptosid-paste &lt;αρχείο&gt;</h6>
+					<!--h6>Example of pastebinit &lt;file&gt;</h6>-->
+					<h6>Παράδειγμα του pastebinit &lt;αρχείο&gt;</h6>
 <!--pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>-->
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
  Για το paste δείτε εδώ: http://rafb.net/p/n8miQp85.html
 </pre>
 							<!--p>The link <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> is what you need to provide to #aptosid on IRC</p>-->
 							<p>Η διεύθυνση <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> είναι αυτό που χρειάζετε να δώσετε στο #aptosid στο IRC</p>
 
-					<!--h6>Example of aptosid-paste -c</h6>-->
-					<h6>Παράδειγμα του aptosid-paste -c</h6>
+					<!--h6>Example of pastebinit -c</h6>-->
+					<h6>Παράδειγμα του pastebinit -c</h6>
 <!--pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>-->
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Για το paste δείτε εδώ:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<!--p>The link <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> is what you need to provide to #aptosid on IRC</p>-->

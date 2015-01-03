@@ -404,29 +404,29 @@ then give #aptosid the link to your paste..
 
 							<p>Du ser så at dit indlæg nu er tilføjet databasen med mulighed for at linke til pastet i IRC, her kræves det at du indtaster adressen i IRC. (Eksempel: <span class="highlight-3">For at linke til dit indlæg, anvend: http://paste.debian.net/524</span> ).  Debain paste kan indstilles til at vise indholdet i et specifikt tidsrum (op til 72 timer). Du har også mulighed for at slette dit indlæg/ paste.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>aptosid-paste giver dig mulighed for at indsætte output fra filer fra terminalen og tty, det er derfor ideelt hvis du er i problemer og er strandet i init 3. aptosid-paste bruger http://rafb.net somlink, og output er tilgængeligt i 24 timer. </p>
+						<p>pastebinit giver dig mulighed for at indsætte output fra filer fra terminalen og tty, det er derfor ideelt hvis du er i problemer og er strandet i init 3. pastebinit bruger http://rafb.net somlink, og output er tilgængeligt i 24 timer. </p>
 
-						<p>Du kan anvende aptosid-paste som både bruger og root, bemærk dog at nogle bestemte outputs kan kræve at du spørger efter dem med root adgang.</p>
+						<p>Du kan anvende pastebinit som både bruger og root, bemærk dog at nogle bestemte outputs kan kræve at du spørger efter dem med root adgang.</p>
 
 <pre>
-aptosid-paste &lt;file&gt;
+pastebinit &lt;file&gt;
 eller
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<h6>Eksempel på aptosid-paste &lt;fil&gt;</h6>
+					<h6>Eksempel på pastebinit &lt;fil&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>Linket <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> er det du skal gøre tilgængeligt på #aptosid på IRC</p>
 
-					<h6>Eksempel på aptosid-paste -c</h6>
+					<h6>Eksempel på pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>Linket <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> er det du skal gøre tilgængeligt på #aptosid på IRC</p>

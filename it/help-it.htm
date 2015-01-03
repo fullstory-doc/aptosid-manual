@@ -409,29 +409,29 @@ then give #aptosid the link to your paste
 
 							<p>Si vedrà quindi che l'immissione sarà stata aggiunta al database con diverse opzioni per collegare il testo al canale IRC che è l'indirizzo che il canale richiede di fornire (esempio: <span class="highlight-3">Per collegare la tua immissione utilizzare http://paste.debian.net/524</span>). Su Debian !paste si può anche impostare il tempo della permanenza delle informazioni (fino a 72 ore) e si ha anche l'opzione di cancellarle.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>aptosid-paste permetterà di incollare l'emissione dal terminale e dalla console tty e perciò è ideale se si hanno problemi in init 3. aptosid-paste utilizza il sito http://rafb.net come collegamento e quanto si immette è disponibile per 24 ore.</p>
+						<p>pastebinit permetterà di incollare l'emissione dal terminale e dalla console tty e perciò è ideale se si hanno problemi in init 3. pastebinit utilizza il sito http://rafb.net come collegamento e quanto si immette è disponibile per 24 ore.</p>
 
 						<p>Si può usare aptosid paste come utente normale o come root, comunque tenere presente che alcune richieste di output richiedono i diritti di root.</p>
 
 <pre>
-aptosid-paste &lt;file&gt;
+pastebinit &lt;file&gt;
 oppure
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<h6>Esempio di aptosid-paste &lt;file&gt;</h6>
+					<h6>Esempio di pastebinit &lt;file&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>Il collegamento <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> è quello da inserire nell'IRC #aptosid </p>
 
-					<h6>Esempio di aptosid-paste -c</h6>
+					<h6>Esempio di pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>Il collegamento <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> è quello da inserire nell'IRC #aptosid </p>

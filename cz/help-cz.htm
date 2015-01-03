@@ -420,31 +420,31 @@ then give #aptosid the link to your paste
 <!-- 							<p>You will then see that your entry has been added to the database with several options to link the paste to IRC which is the address that the channel requires you to provide. (Example: <span class="highlight-3">To link to your entry use: http://paste.debian.net/524</span> ).  Debian paste can set to display the information for specific duration (up to 72 hours). You also have the option to delete the paste/data.</p> -->
 							<p>Uvidíte, že váš výběr bude přidán do databáze s několika možnostmi, jak na něj odkázat v IRC, což bude adresa, kterou v kanálu bude nutné zadat. (Příklad: <span class="highlight-3">Pro odkaz na váš text použijte: http://paste.debian.net/524</span>). Debian paste umožňuje nastavit dobu zobrazení informace (až 72 hodin). Také máte možnost data smazat.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-<!--						<p>aptosid-paste will allow you to paste the output of files from the terminal and tty, therefore it is ideal if you are in trouble in init 3. aptosid-paste uses http://rafb.net as the link, and the output is availble for 24 hours. </p>-->
-						<p>aptosid-paste vám umožní vložit výstup souborů z terminálu nebo tty, což je užitečné, jestli máte problém v init 3. aptosid-paste používá http://rafb.net jako odkaz a výstup je k dispozici po 24 hodin.</p>
+<!--						<p>pastebinit will allow you to paste the output of files from the terminal and tty, therefore it is ideal if you are in trouble in init 3. pastebinit uses http://rafb.net as the link, and the output is availble for 24 hours. </p>-->
+						<p>pastebinit vám umožní vložit výstup souborů z terminálu nebo tty, což je užitečné, jestli máte problém v init 3. pastebinit používá http://rafb.net jako odkaz a výstup je k dispozici po 24 hodin.</p>
 
 <!--						<p>You can be as user or root to enable aptosid paste, however note that some requests for output requires root access.</p>-->
-						<p>Můžete být jak uživatel nebo jako root, abyste použili aptosid-paste, ačkoliv často je nutné pro některé příkazy mít přístup root.</p>
+						<p>Můžete být jak uživatel nebo jako root, abyste použili pastebinit, ačkoliv často je nutné pro některé příkazy mít přístup root.</p>
 
 <pre>
-aptosid-paste &lt;soubor&gt;
+pastebinit &lt;soubor&gt;
 nebo
-aptosid-paste -c "příkaz1 --volby parametry ; příkaz2"
+pastebinit -c "příkaz1 --volby parametry ; příkaz2"
 </pre>
 
 
-					<h6>Přiklad aptosid-paste &lt;soubor&gt;</h6>
+					<h6>Přiklad pastebinit &lt;soubor&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Váš výběr můžete být viděn zde: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>Odkaz <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> je přesně to, co je potřeba zkopírovat do #aptosid na IRC</p>
 
-					<h6>Příklad aptosid-paste -c</h6>
+					<h6>Příklad pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Váš výběr můžete být viděn zde: http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>Odkaz <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> je to, co je potřeba zkopírovat do #aptosid na IRC</p>

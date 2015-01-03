@@ -407,29 +407,29 @@ then give #aptosid the link to your paste
 
 							<p>You will then see that your entry has been added to the database with several options to link the paste to IRC which is the address that the channel requires you to provide. (Example: <span class="highlight-3">To link to your entry use: http://paste.debian.net/524</span> ).  Debian paste can set to display the information for specific duration (up to 72 hours). You also have the option to delete the paste/data.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>aptosid-paste will allow you to paste the output of files from the terminal and tty, therefore it is ideal if you are in trouble in init 3. aptosid-paste uses http://rafb.net as the link, and the output is availble for 24 hours. </p>
+						<p>pastebinit will allow you to paste the output of files from the terminal and tty, therefore it is ideal if you are in trouble in init 3. pastebinit uses http://rafb.net as the link, and the output is availble for 24 hours. </p>
 
 						<p>You can be as user or root to enable aptosid paste, however note that some requests for output requires root access.</p>
 
 <pre>
-aptosid-paste &lt;file&gt;
+pastebinit &lt;file&gt;
 or
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<h6>Example of aptosid-paste &lt;file&gt;</h6>
+					<h6>Example of pastebinit &lt;file&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>The link <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> is what you need to provide to #aptosid on IRC</p>
 
-					<h6>Example of aptosid-paste -c</h6>
+					<h6>Example of pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>The link <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> is what you need to provide to #aptosid on IRC</p>

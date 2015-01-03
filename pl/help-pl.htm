@@ -405,29 +405,29 @@ then give #aptosid the link to your paste..
 
 							<p>Po tym przekonasz się, że to co wprowadziłeś znalazło się w bazie danych z kilkoma opcjami linkowania do IRC, co jest adresem potrzebnego kanału. (Przykład: <span class="highlight-3">To link to your entry use: http://paste.debian.net/524</span> ).  Debain paste może ustawić wyświtelanie informacji przez określony czas - do 72 godzin). Możesz także wykasować wklejone dane.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>aptosid-paste pozwala ci na wklejanie wyjścia zbioru z terminala i konsoli tty, w związku z tym jest to idealne narzędzie jeśli masz kłopoty i jesteś w init 3. aptosid-paste używa http://rafb.net jako linka, a wyjście jest osiąglane w ciagu 24 godzin. </p>
+						<p>pastebinit pozwala ci na wklejanie wyjścia zbioru z terminala i konsoli tty, w związku z tym jest to idealne narzędzie jeśli masz kłopoty i jesteś w init 3. pastebinit używa http://rafb.net jako linka, a wyjście jest osiąglane w ciagu 24 godzin. </p>
 
 						<p>Możesz być zalogowany jako użytkownik albo root aby udostępnić aptosid paste, jakkolwiek zauważ, że niektóre żądania wyjścia potrzebują praw roota.</p>
 
 <pre>
-aptosid-paste &lt;file&gt;
+pastebinit &lt;file&gt;
 lub
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<h6>Przykład z aptosid-paste &lt;file&gt;</h6>
+					<h6>Przykład z pastebinit &lt;file&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>Link <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> jest tym czego potrzebujesz, aby dostać się do #aptosid na IRC</p>
 
-					<h6>Przykład z aptosid-paste -c</h6>
+					<h6>Przykład z pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>Link <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> jest tym czego potrzebujesz, aby dostac się do #aptosid on IRC</p>

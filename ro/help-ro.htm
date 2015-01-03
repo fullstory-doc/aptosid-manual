@@ -404,29 +404,29 @@ paste conținutul dorit, upload, și dați adresa link-ului pe canalui aptosid .
 
 							<p> Veți  observa că  conținutul trimis este adaugat la baza de date cu cîteva opțiuni ale link-ului, iar acest link vă este cerut pe canal.    (De exemplu: <span class="highlight-3">Link-ul dvs este: http://paste.debian.net/524</span> ).  Debian paste poate seta să afișeze această informație pentru o durată specificată (dar maximum 72 ore). Există și opțiunea de a șterge acest paste/data.</p>
 
-					<h3>Camanda aptosid-paste</h3>
+					<h3>Camanda pastebinit</h3>
 
-							<p>Camanda aptosid-paste permite să 'paste' output-ul unui fișier dintr-un terminal sau o consolă tty, deci foarte utilă în situații dificile în faza de 'init 3'. aptosid-paste folosește ca link adresa http://rafb.net, cu o durată de 24 de ore.</p>
+							<p>Camanda pastebinit permite să 'paste' output-ul unui fișier dintr-un terminal sau o consolă tty, deci foarte utilă în situații dificile în faza de 'init 3'. pastebinit folosește ca link adresa http://rafb.net, cu o durată de 24 de ore.</p>
 
-							<p> aptosid-paste poate fi lansată ca root sau utilizator dar trebuie notat că anumite output-ri necesită lansarea ca root.</p>
+							<p> pastebinit poate fi lansată ca root sau utilizator dar trebuie notat că anumite output-ri necesită lansarea ca root.</p>
 
 <pre>
-aptosid-paste &lt;fișier&gt;
+pastebinit &lt;fișier&gt;
 <i> sau</i>
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<h6>Example de aptosid-paste &lt;fișiere&gt;</h6>
+					<h6>Example de pastebinit &lt;fișiere&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Fișierul paste se gasește aici : http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>Acest link <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> trebuie apoi prezentat pe canalul IRC #aptosid</p>
 
-					<h6>Example de aptosid-paste -c</h6>
+					<h6>Example de pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Fișierul paste se gasește aici http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>Acest link <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> trebuie apoi prezentat pe canalul IRC  #aptosid </p>

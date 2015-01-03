@@ -404,29 +404,29 @@ en geef de link door in kanaal #aptosid..
 
 							<p>Na het plakken van de gevraagde informatie, zie je dat je bijdrage in de database staat. Er zijn verschillende opties beschikbaar om je paste-bijdrage naar het IRC kanaal te brengen c.q. daar te tonen (voorbeeld: <span class="highlight-3">To link to your entry use: http://paste.debian.net/524</span>). De duur van het tonen van je Debain paste kan je zelf vastleggen (tot 72 uur). Je hebt ook de mogelijkheid om de paste/data te wissen.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>aptosid-paste staat het toe om de uitvoer terminal of tty bestanden te kopieren, het is daarom ideaal als je problemen hebt en in init 3 modus zit. aptosid-paste gebruikt http://rafb.net als de link, en de uitvoer/output is 24 uur beschikbaar. </p>
+						<p>pastebinit staat het toe om de uitvoer terminal of tty bestanden te kopieren, het is daarom ideaal als je problemen hebt en in init 3 modus zit. pastebinit gebruikt http://rafb.net als de link, en de uitvoer/output is 24 uur beschikbaar. </p>
 
 						<p>Ja kan een gebruiker of root zijn om aptosid paste te gebruiken, bedenk echter wel dat sommige uitvoer root rechten nodig kunnen hebben.</p>
 
 <pre>
-aptosid-paste &lt;file&gt;
+pastebinit &lt;file&gt;
 of
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<h6>Voorbeeld van aptosid-paste &lt;file&gt;</h6>
+					<h6>Voorbeeld van pastebinit &lt;file&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>De link <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> geef je via IRC op het kanaal #aptosid door zodat men naar de uitvoer kan kijken.</p>
 
-					<h6>Voorbeeld van aptosid-paste -c</h6>
+					<h6>Voorbeeld van pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>De link <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> geef je via IRC op het kanaal #aptosid door zodat men naar de uitvoer kan kijken.</p>

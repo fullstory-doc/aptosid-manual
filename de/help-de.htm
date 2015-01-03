@@ -409,29 +409,29 @@ then give #aptosid the link to your paste...
 
 							<p>Danach sieht man, dass der Eintrag mit verschiedenen Optionen, wie man eine Paste-Eingabe im IRC-Channel mittels eines Links anbieten kann, zur Datenbank hinzugefügt worden ist. (Beispiel für einen Link, der im IRC verwendet werden kann: <span class="highlight-3">To link to your entry use: http://paste.debian.net/524</span>).  Debian-Paste kann konfiguriert werden, wie lange ein Eintrag abrufbar ist (bis zu 72 Stunden). Der Eintrag kann auch manuell entfernt werden.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>aptosid-paste ermöglicht das Einfügen von Dateien aus dem Terminal oder TTY. Die ist ideal, wenn man sich mit Problemen in Runlevel 3 (ohne Grafikserver) befindet. aptosid-paste nutzt http://rafb.net als Link, und die Ausgabe ist 24 Stunden lang verfügbar.</p>
+						<p>pastebinit ermöglicht das Einfügen von Dateien aus dem Terminal oder TTY. Die ist ideal, wenn man sich mit Problemen in Runlevel 3 (ohne Grafikserver) befindet. pastebinit nutzt http://rafb.net als Link, und die Ausgabe ist 24 Stunden lang verfügbar.</p>
 
-						<p>Man kann sowohl als user wie auch als root aptosid-paste verwenden, einige Anfragen jedoch benötigen root-Zugang.</p>
+						<p>Man kann sowohl als user wie auch als root pastebinit verwenden, einige Anfragen jedoch benötigen root-Zugang.</p>
 
 <pre>
-aptosid-paste &lt;file&gt;
+pastebinit &lt;file&gt;
 oder
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<h6>Beispiel für aptosid-paste &lt;file&gt;</h6>
+					<h6>Beispiel für pastebinit &lt;file&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>Der Link <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> muss danach im IRC-Channel #aptosid eingegeben werden.</p>
 
-					<h6>Beispiel für aptosid-paste -c</h6>
+					<h6>Beispiel für pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>Der Link <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> muss danach im IRC-Channel #aptosid eingegeben werden.</p>

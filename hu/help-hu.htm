@@ -377,29 +377,29 @@ then give #aptosid the link to your paste
 
 							<p>Látni fogod, hogy az általad bevitt információ bekerült az adatbázisba néhány opció kíséretében melyek arra szolgálnak, hogy megadd őket az IRC-n a segítőidnek, akik így fogják látni az információidat. (Például: <span class="highlight-3">Ha be akarod linkelni a bejegyzésed, használd a http://paste.debian.net/524 formát.</span> ).  A Debain paste-nek beállítható, hogy meddig őrizze meg a bejegyzésed (max. 72 óráig). Azonnali törlésre is lehetőséged van.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>A aptosid-paste lehetővé teszi a terminálon és tty-on futó programok kimenetét egy paste rendszerbe feltölteni, így ideális abban az esetben, ha például init 3-ban van gondod. A aptosid-paste a http://rafb.net címet használja és 24 óráig őrzi meg a bejegyzésed. </p>
+						<p>A pastebinit lehetővé teszi a terminálon és tty-on futó programok kimenetét egy paste rendszerbe feltölteni, így ideális abban az esetben, ha például init 3-ban van gondod. A pastebinit a http://rafb.net címet használja és 24 óráig őrzi meg a bejegyzésed. </p>
 
 						<p>Itt lehetsz root is, meg egyszerű felhasználó is, de tartsd szem előtt, hogy egyes programok futtatásához root jogok kellenek.</p>
 
 <pre>
-aptosid-paste &lt;file&gt;
+pastebinit &lt;file&gt;
 or
-aptosid-paste -c "command1 --options parameters ; command2"
+pastebinit -c "command1 --options parameters ; command2"
 </pre>
 
 
-					<h6>Példa a aptosid-paste &lt;fájl&gt; kimenetére</h6>
+					<h6>Példa a pastebinit &lt;fájl&gt; kimenetére</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>A <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span>  linket kell megadnod az IRC #aptosid csatornán.</p>
 
-					<h6>Példa a aptosid-paste -c kimenetére</h6>
+					<h6>Példa a pastebinit -c kimenetére</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>A <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span>  linket kell megadnod az IRC #aptosid csatornán.</p>

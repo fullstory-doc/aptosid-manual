@@ -406,29 +406,29 @@ i dajte #aptosid potreban link
 
 							<p>Onda će te vidjeti da vaš upis je dodan u bazu podataka s raznim opcijama da ubacite paste u IRC kojemu je potrebna adresa vašeg paste. (Primjer: <span class="highlight-3">Da napravite link za vaš upis koristite: http://paste.debian.net/524</span> ).  Debain paste možete postaviti, da prikazuje informacije za ograničeno vrijeme (do 72 sati). Imate isto mogučnost da izbrišete paste/podatke.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>aptosid-paste nudi vam mogučnost da zalijepite output datoteka iz terminala i tty, zato je idejalan alat, ako imate problema u init 3. aptosid-paste koristi http://rafb.net kao link, i upis je trajan 24 sata. </p>
+						<p>pastebinit nudi vam mogučnost da zalijepite output datoteka iz terminala i tty, zato je idejalan alat, ako imate problema u init 3. pastebinit koristi http://rafb.net kao link, i upis je trajan 24 sata. </p>
 
 						<p>Možete biti korisnik ili root da aktivirate aptosid paste, kakogod, zapamtite da poneke stavri potrebaju root privilegije.</p>
 
 <pre>
-aptosid-paste &lt;datoteka&gt;
+pastebinit &lt;datoteka&gt;
 ili
-aptosid-paste -c "naredba1 --opcije parametri ; naredba2"
+pastebinit -c "naredba1 --opcije parametri ; naredba2"
 </pre>
 
 
-					<h6>Primjer za aptosid-paste &lt;datoteka&gt;</h6>
+					<h6>Primjer za pastebinit &lt;datoteka&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>Link je <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> što morate upisati u #aptosid na IRC</p>
 
-					<h6>Primjer za aptosid-paste -c</h6>
+					<h6>Primjer za pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>Link je <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> što morate upisati u #aptosid na IRC</p>

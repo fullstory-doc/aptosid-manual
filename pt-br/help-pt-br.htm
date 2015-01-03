@@ -405,31 +405,31 @@ then give #aptosid the link to your paste..
 
 							<p>Você verá que os dados fornecidos foram adicionados ao banco de dados, com várias opções para ligá-los ao IRC, que é o canal requerido. (Exemplo: <span class="highlight-3">para conexão com os dados fornecidos, use: http://paste.debian.net/524</span> ). O 'Debian paste' pode ser configurado para mostrar as informações por um determinado período (até 72 horas). Há ainda a opção para você apagar os dados.</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
-						<p>aptosid-paste permite que saídas do terminal sejam coladas no site http://rafb.net, onde ficam disponíveis por 24 horas. Esse serviço é ideal se você tiver problemas no init 3.</p>
+						<p>pastebinit permite que saídas do terminal sejam coladas no site http://rafb.net, onde ficam disponíveis por 24 horas. Esse serviço é ideal se você tiver problemas no init 3.</p>
 
-						<p>Para habilitar o aptosid-paste, você pode tanto estar logado como usuário ou como root; no entanto, observe que certas ações exigem que você seja root.</p>
+						<p>Para habilitar o pastebinit, você pode tanto estar logado como usuário ou como root; no entanto, observe que certas ações exigem que você seja root.</p>
 
 <pre>
-aptosid-paste &lt;arquivo&gt;
+pastebinit &lt;arquivo&gt;
 ou
-aptosid-paste -c "comando1 --opções parâmetros ; comando2"
+pastebinit -c "comando1 --opções parâmetros ; comando2"
 </pre>
 
 
-					<h6>Exemplo de aptosid-paste &lt;arquivo&gt;</h6>
+					<h6>Exemplo de pastebinit &lt;arquivo&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab [ENTER]
+pastebinit /etc/fstab [ENTER]
 Mensagem no terminal:
 Your paste can be seen here: http://rafb.net/p/xxXxxxXx.html
 ('Sua colagem pode ser vista aqui: http://rafb.net/p/xxXxxxXx.html')
 </pre>
 							<p>O link <span class="highlight-3">http://rafb.net/p/xxXxxxXx.html</span> será necessário, caso você solicite ajuda no IRC #aptosid.</p>
 
-					<h6>Exemplo de aptosid-paste -c</h6>
+					<h6>Exemplo de pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab" [ENTER]
+pastebinit -c "fdisk -l; cat /etc/fstab" [ENTER]
 Mensagem no terminal:
 Your paste can be seen here:http://rafb.net/p/YYxyXYxx.html
 </pre>

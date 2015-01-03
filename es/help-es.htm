@@ -410,29 +410,29 @@ port 6667
 
 							<p>Así verá que la entrada ha sido agregada a la base de datos con algunas opciones para enlazar lo pegado al IRC, lo cual es la dirección que el canal requiere que usted provea. (Ejemplo: <span class="highlight-3">Para enlazar a su entrada, utilice:  http://paste.debian.net/524 </span>).  El Paste Debian permite fijar la duración de permanencia hasta 72 horas. También tiene la opción de quitar los datos pegados.</p>
 
-					<h3>Pegar-aptosid (aptosid-paste)</h3>
+					<h3>Pegar-aptosid (pastebinit)</h3>
 
-							<p>aptosid-paste permite pegar la salida de archivos del terminal y del tty, por lo que es ideal si está con un lío en el nivel "init 3". El aptosid-paste utiliza el enlace http://rafb.net, y la salida está disponible durante sólo 24 horas. </p>
+							<p>pastebinit permite pegar la salida de archivos del terminal y del tty, por lo que es ideal si está con un lío en el nivel "init 3". El pastebinit utiliza el enlace http://rafb.net, y la salida está disponible durante sólo 24 horas. </p>
 
 							<p>Puede activar aptosid paste siendo usuario o root; sin embargo, algunas peticiones de salida requieren los privilegios de root.</p>
 
 <pre>
-aptosid-paste &lt;archivo&gt;
+pastebinit &lt;archivo&gt;
 o bien
-aptosid-paste -c "comando1 --opciones parametros ; comando2"
+pastebinit -c "comando1 --opciones parametros ; comando2"
 </pre>
 
 
-					<h6>Ejemplo de un "aptosid-paste" &lt;archivo&gt;</h6>
+					<h6>Ejemplo de un "pastebinit" &lt;archivo&gt;</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Puede ver aquí lo que ha pegado:  http://rafb.net/p/n8miQp85.html
 </pre>
 							<p>El enlace <span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> es lo que tiene que proporcionar a #aptosid en IRC</p>
 
-					<h6>Otro ejemplo de un aptosid-paste -c</h6>
+					<h6>Otro ejemplo de un pastebinit -c</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Puede ver su pegamiento aquí: http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<p>Tiene que proporcionar el enlace <span class="highlight-3">http://rafb.net/p/ZrhlVc59.html</span> al IRC de #aptosid. </p>

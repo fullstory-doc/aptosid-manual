@@ -476,31 +476,31 @@ then give #aptosid the link to your paste
 							#### -->
 							<p>すると入力されたデータはデータベースに加えらます。このリンクをIRCのチャンネルにペーストしてください。例: <span class="highlight-3">To link to your entry use: http://paste.debian.net/524</span> ).  Debain の paste はデータの内容を表示する時間を設定することができます。(72時間まで). データを削除するオプションもあります。</p>
 
-					<h3>aptosid-paste</h3>
+					<h3>pastebinit</h3>
 
 						<!--- ####
-						<p>aptosid-paste will to allow you to paste the output of files from the terminal and tty, therefore it is ideal if you are in trouble in init 3. aptosid-paste uses http://rafb.net as the link, and the output is availble for 24 hours. </p>
+						<p>pastebinit will to allow you to paste the output of files from the terminal and tty, therefore it is ideal if you are in trouble in init 3. pastebinit uses http://rafb.net as the link, and the output is availble for 24 hours. </p>
 						#### -->
-						<p>aptosid-pasteを使えばターミナルやttyコンソールからファイルやプログラムの出力をネット上のサイトにペーストすることができるので、init3のテキストモードで問題が起こったときなどに援助を求めるのに使えます。aptosid-pasteはhttp://rafb.netのリンクを使っていて、24時間アクセス可能です。</p>
+						<p>pastebinitを使えばターミナルやttyコンソールからファイルやプログラムの出力をネット上のサイトにペーストすることができるので、init3のテキストモードで問題が起こったときなどに援助を求めるのに使えます。pastebinitはhttp://rafb.netのリンクを使っていて、24時間アクセス可能です。</p>
 
 						<!--- ####
 						<p>You can be as user or root to enable aptosid paste, however note that some requests for output requires root access.</p>
 						#### -->
-						<p>ユーザーとしてでもrootとしてでもaptosid-pasteは使えますが、出力をペーストするように求められるコマンドにはrootでなければ実行できないものもあります。</p>
+						<p>ユーザーとしてでもrootとしてでもpastebinitは使えますが、出力をペーストするように求められるコマンドにはrootでなければ実行できないものもあります。</p>
 
 <pre>
-aptosid-paste &lt;ファイル&gt;
+pastebinit &lt;ファイル&gt;
  または
-aptosid-paste -c "コマンド1 --オプション ; コマンド2"
+pastebinit -c "コマンド1 --オプション ; コマンド2"
 </pre>
 
 
 					<!--- ####
-					<h6>Example of aptosid-paste &lt;file&gt;</h6>
+					<h6>Example of pastebinit &lt;file&gt;</h6>
 					#### -->
-					<h6>aptosid-paste &lt;ファイル&gt; の一例</h6>
+					<h6>pastebinit &lt;ファイル&gt; の一例</h6>
 <pre>
-aptosid-paste /etc/fstab
+pastebinit /etc/fstab
 Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 </pre>
 							<!--- ####
@@ -509,11 +509,11 @@ Your paste can be seen here: http://rafb.net/p/n8miQp85.html
 							<p>この<span class="highlight-3">http://rafb.net/p/n8miQp85.html</span> のように表示されるリンクをIRCの#aptosidチャンネルに書き込みます。</p>
 
 					<!--- ####
-					<h6>Example of aptosid-paste -c</h6>
+					<h6>Example of pastebinit -c</h6>
 					#### -->
-					<h6>aptosid-paste -c の一例</h6>
+					<h6>pastebinit -c の一例</h6>
 <pre>
-aptosid-paste -c "fdisk -l; cat /etc/fstab"
+pastebinit -c "fdisk -l; cat /etc/fstab"
 Your paste can be seen here:http://rafb.net/p/ZrhlVc59.html
 </pre>
 							<!--- ####
