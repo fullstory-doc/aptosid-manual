@@ -392,11 +392,11 @@
 ## Log out of KDE.  
 ## Go to Textmode by doing Ctrl+Alt+F1
 ## logon as root, and then type:
-service kdm stop  ##If using another window manager replace kdm, for example with gdm
+systemctl isolate multi-user.target
 apt-get update
 apt-get dist-upgrade
 apt-get clean
-service kdm start ##If using another window manager replace kdm, for example with gdm
+systemctl isolate graphical.target
 </pre>
 			<!--- ####
 			<div class="highlight-2">NEVER DIST-UPGRADE [or UPGRADE] with adept, synaptic or aptitude <a href="sys-admin-apt-en.htm#apt-upgrade"> Read  Upgrade of an Installed System</a> ] </div>

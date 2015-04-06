@@ -625,11 +625,11 @@ Do you want to continue [Y/n]?<span class="highlight-3">Y </span>
 ## Log out of KDE.  
 ## Go to Textmode by doing Ctrl+Alt+F1
 ## logon as root, and then type:
-service kdm stop  ##If using another window manager replace kdm, for example with gdm
+systemctl isolate multi-user.target
 apt-get update
 apt-get dist-upgrade
 apt-get clean
-service kdm start ##If using another window manager replace kdm, for example with gdm
+systemctl isolate graphical.target
 </pre>
 			<div>[Probeer nooit een DIST-UPGRADE [of UPGRADE] met adept, synaptic of aptitude uit te voeren. <a href="sys-admin-apt-nl.htm#apt-upgrade">Kijk hier voor meer infomatie.</a>:</div>
 

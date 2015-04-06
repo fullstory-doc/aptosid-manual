@@ -363,11 +363,11 @@
 ## Log out of KDE.  
 ## Go to Textmode by doing Ctrl+Alt+F1
 ## logon as root, and then type:
-service kdm stop  ##If using another window manager replace kdm, for example with gdm
+systemctl isolate multi-user.target
 apt-get update
 apt-get dist-upgrade
 apt-get clean
-service kdm start ##If using another window manager replace kdm, for example with gdm
+systemctl isolate graphical.target
 </pre>
 			<div class="highlight-2">НІКОЛИ НЕ РОБІТЬ СИСТЕМНЕ ОНОВЛЕННЯ (dist-upgrade) / [оновлення] зі adept, synaptic або aptitude. <a href="sys-admin-apt-uk.htm#apt-upgrade"> Читайте розділ цього керівництва 'Оновлення встановленої системи'</a></div>
 
