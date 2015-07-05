@@ -619,7 +619,7 @@ $ deborphan
 
 							<p> Il seguente comando permette di trovare pacchetti non disponibili da qualsiasi repository attivo e può suggerire pacchetti obsoleti; fare attenzione riguardo ai pacchetti installati in modo manuale.</p>
 <pre>
-$ apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
+$ LANG= apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
 </pre>
 			</div>
 			<div class="divider" id="howto-involve">

@@ -572,7 +572,7 @@ $ deborphan
 						<p>Следующая команда сможет найти пакеты которые не доступны из любого активного репорозитория и может намекнуть на устаревшие пакеты, будьте осторожны при вручную установленных пакетах.</p>
 
 <pre>
-$ apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
+$ LANG= apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
 </pre>
 			</div>
 			<div class="divider" id="howto-involve">

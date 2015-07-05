@@ -620,7 +620,7 @@ $ deborphan
 </pre>
 							<p> Der folgende Befehl ist in der Lage Pakete zu finden, die nicht länger in einem aktiven apt-Repository verfügbar sind. In Bezug auf manuell installierte Pakete ist jedoch Vorsicht geboten.</p>
 <pre>
-$ apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
+$ LANG= apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
 </pre>
 			</div>
 			<div class="divider" id="howto-involve">

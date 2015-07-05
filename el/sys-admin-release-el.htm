@@ -629,7 +629,7 @@ $ deborphan
 							<p>The following command is able to find packages not available from any active apt repository and may hint at obsolete packages, be careful about manually installed packages though.</p>
 
 <pre>
-$ apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
+$ LANG= apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
 </pre>
 			</div>
 			<div class="divider" id="howto-involve">

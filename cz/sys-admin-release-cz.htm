@@ -662,7 +662,7 @@ $ deborphan
 							<p>Následující příkaz je schopen najít balíčky, které nejsou k dispozici v žádném aktivním repozitářní a mohou tedy poukazovat na prošlé balíčky. Buďte ale obezřetní s ručně instalovanými balíčky.</p>
 
 <pre>
-$ apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
+$ LANG= apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
 </pre>
 			</div>
 			<div class="divider" id="howto-involve">

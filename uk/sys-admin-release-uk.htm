@@ -620,7 +620,7 @@ $ deborphan
 							<p>Наступна команда може знайти не доступні пакети з буд-якого активного apt-сховища і може натякати на застарілі пакети, будьте обережні при вручну встановлених пакетах, хоча команда.</p>
 
 <pre>
-$ apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
+$ LANG= apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
 </pre>
 			</div>
 			<div class="divider" id="howto-involve">

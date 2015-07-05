@@ -623,7 +623,7 @@ $ deborphan
 							<p>O comando seguinte identifica pacotes que não existem em nenhum repositório - os devidos cuidados são recomendados nóvamente se os remover.</p>
 
 <pre>
-$ apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
+$ LANG= apt list 2&gt;/dev/null | awk -F '/' '/installed,local/{print $1}'
 </pre>
 			</div>
 			<div class="divider" id="howto-involve">
