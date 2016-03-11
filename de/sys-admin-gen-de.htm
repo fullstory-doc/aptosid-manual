@@ -540,7 +540,7 @@ fix-dpi-kdm
 </pre>
 							<p>Dies sollte die passende DPI-Größe für den verwendeten Monitor anzeigen, aber sie kann geändert werden. Um die Änderungen wirksam werden zu lassen, muss der Grafikserver X neu gestartet (init 3 - init 5) oder ein Reboot durchgeführt werden.</p>
 
-							<p>Nach Änderung einer Schriftart oder der DPI-Größe (in X oder Firefox/Iceweasel) müssen eventuell noch einige Anpassungen vorgenommen werden, besonders wenn von einem Bitmap-Font zu einem True-Type-Font gewechselt wurde (oder umgekehrt):</p>
+							<p>Nach Änderung einer Schriftart oder der DPI-Größe (in X oder Firefox) müssen eventuell noch einige Anpassungen vorgenommen werden, besonders wenn von einem Bitmap-Font zu einem True-Type-Font gewechselt wurde (oder umgekehrt):</p>
 <pre>
 dpkg-reconfigure fontconfig-config
 </pre>
@@ -553,7 +553,7 @@ apt-get install --reinstall --yes -o DPkg::Options::=--force-confmiss -o DPkg::O
 </pre>
 							<p>Zu beachten ist auch, dass nicht jede Schriftart in allen Größen die gleiche Schriftqualität liefert.</p>
 
-				<h5>Voreinstellungen in Firefox/Iceweasel</h5>
+				<h5>Voreinstellungen in Firefox</h5>
 							<p>Programme, die auf GTK2 basieren, sind bezüglich Schriftbild in KDE-Umgebungen problematisch. Eine der Lösungsmöglichkeiten ist die Installation von:</p>
 <pre>
 apt-get install gtk2-engines system-config-gtk-kde gtk-qt-engine gtk2-engines-qtcurve
