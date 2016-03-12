@@ -534,12 +534,6 @@ passwd &lt;user&gt;
 
 							<p>aptosid utiliza fuentes preseleccionadas (por Debian) que se han comprobado como muy equilibradas; si hace cambios en la selección de fuentes podría deteriorar la calidad de la renderización. Pero hay unas opciones poderosas en Debian (aparte de las de KDE>systemsettings) que puede proporcionar una renderización perfecta también con otras fuentes. Sea consciente de que cada fuente tiene solamente unos pocos tamaños perfectos, y que otros tamaños pueden ocasionar conflictos.</p>
 
-				<p>Variar el tamaño del "dpi" con este comando puede ser de ayuda:</p>
-<pre>
-fix-dpi-kdm
-</pre>
-							<p>Debe mostrar el DPI para el tamaño del pantalla, pero usted también puede jugar con esto. Tendrá que cambiar a "init 3" y después a "init 5" para que funcione, o volver a arrancar.</p>
-
 							<p>Después de haber cambiado el tipo de fuente de letra o el DPI (en la configuración de X o en Firefox), puede ser que necesite algunos ajustes para conseguir unos resultados que le gusten, especialmente después de un cambio de tipo Bitmap a uno de TrueType o viceversa:</p>
 <pre>
 dpkg-reconfigure fontconfig-config

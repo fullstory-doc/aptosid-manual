@@ -504,12 +504,6 @@ passwd &lt;user&gt;
 
 							<p>A aptosid (a Debian által) előre kiválasztott szabad betűtípusokkal érkezik, melyek kipróbáltan kiegyensúlyozott megjelenést nyújtanak, a felhasználók által összeválogatott font-készletek esetlegesen ronthatnak ezen a minőségen. De van a Debianban néhány hatékony eszköz (apart from KDE>systemsettings ) melyek segíthenek kiigazítani más betűkészletek pontatlan renderelését is. Tartsd szem előtt, hogy minden betűtípusnak van néhány valóban tökéletes megjelenítésű mérete, ám más méretekben esetleg csúnyán mutatnak.</p>
 
-							<p>Segítségedre lehet, ha egy kicsit eljátszol a dpi méretekkel, az alábbi program használatával:</p>
-<pre>
-fix-dpi-kdm
-</pre>
-							<p>Meg kell mutatnia a képernyő megfelelő DPI értékét, de megadthatsz neki kísérletképpen más értéket is. Újra kell indítanod az X-et, pl init 3 és vissza init 5, vagy újraindítod a gépet.</p>
-
 							<p> Miután megváltoztatod a betűtípusokat vagy a DPI-t (az X-ben, vagy a Firefox-ben), némi utánigazítást kell végezned, hogy az eredmény valóban megfelelő legyen, különösen ha fontkészleteket átváltottad bitmap fontokról  True Type készletekre vagy vissza:</p>
 <pre>
 dpkg-reconfigure fontconfig-config

@@ -534,12 +534,6 @@ passwd &lt;user&gt;
 
 							<p>aptosid nutzt freie Fonts, die sich in Debian als ausgewogen bewährt haben. Wenn eigene Schriftarten gewählt werden, müssen eventuell neue Konfigurationsanpassungen als Root vorgenommen werden, um das gewünschte Schriftbild zu erhalten. Neben den Einstellungsmöglichkeiten im apart from KDE>systemsettings, gibt es bei Debian einige mächtige Einstellungsoptionen, um eine saubere Schriftendarstellung zu erzielen. Beachtet werden muss jedoch, dass jede Schriftart ein ideales Größenspektrum besitzt, sodass identische Größeneinstellungen nicht bei jeder Schriftart zu einem gleich guten Ergebnis führen müssen.</p>
 
-				<p>Eine Änderung der DPI-Größe kann auch zu einer besseren Schriftendarstellung beitragen. Dazu wird dieser Befehl verwendet:</p>
-<pre>
-fix-dpi-kdm
-</pre>
-							<p>Dies sollte die passende DPI-Größe für den verwendeten Monitor anzeigen, aber sie kann geändert werden. Um die Änderungen wirksam werden zu lassen, muss der Grafikserver X neu gestartet (init 3 - init 5) oder ein Reboot durchgeführt werden.</p>
-
 							<p>Nach Änderung einer Schriftart oder der DPI-Größe (in X oder Firefox) müssen eventuell noch einige Anpassungen vorgenommen werden, besonders wenn von einem Bitmap-Font zu einem True-Type-Font gewechselt wurde (oder umgekehrt):</p>
 <pre>
 dpkg-reconfigure fontconfig-config
