@@ -413,9 +413,9 @@ apt-get install virtuoso-minimal strigi-client
 							<p>KDEはログインの際に/tmpディレクトリがあるパーティションのサイズの5%の大きさのテンポラリファイルを作ります。そのためパーティションの95%以上が使われているとKDEがスタートできずttyのスクリーンに落ちます。</p>
 
 							<!--- ####
-							<p>The same goes for kdm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p>
+							<p>The same goes for sddm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p>
 							#### -->
-							<p>同様にKDMのループでもログインができなくなります。この場合の解決法はまずttyにログインしていらなくなったアプリケーションやファイルを削除して十分な空き領域をつくることです。</p>
+							<p>同様にsddmのループでもログインができなくなります。この場合の解決法はまずttyにログインしていらなくなったアプリケーションやファイルを削除して十分な空き領域をつくることです。</p>
 
 							<!--- ####
 							<p>Alternatively you can use an X window manager that does not require so much space from the system ( for instance fluxbox is already present in a aptosid install), or chroot using a aptosid live-CD/DVD to clean out the partition to allow you to boot to KDE.</p>
@@ -547,7 +547,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

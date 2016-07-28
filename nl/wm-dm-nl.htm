@@ -381,7 +381,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>KDE heeft 5% ruimte nodig op de partitie waar de directory /tmp ligt, dit omdat er tijdelijke bestanden tijdens het inloggen worden aangemaakt. Dus als je partitie 95% vol is, kun je niet inloggen met KDE en kom je terug in terminal mode (tty).</p>
 
-							<p>Hetzelfde geldt voor kdm looping welke je niet toestaat om in te loggen. Een oplossing is om via tty (terminal) in te loggen om ruimte te creëren, door het verwijderen van applicaties / bestanden die je niet meer gebruikt.</p>
+							<p>Hetzelfde geldt voor sddm looping welke je niet toestaat om in te loggen. Een oplossing is om via tty (terminal) in te loggen om ruimte te creëren, door het verwijderen van applicaties / bestanden die je niet meer gebruikt.</p>
 
 							<p>Een ander alternatief is een andere X window manager gebruiken die niet zoveel ruimte van het systeem vereist ( bijvoorbeeld fluxbox is ook standaard geinstalleerd bij een aptosid install), of doe een chroot gebruikmakend van de aptosid live-CD/DVD om de partitie op te schonen, zodat je wel tijdens het booten KDE kan opstarten.</p>
 
@@ -454,7 +454,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Voorbeelden voor <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

@@ -363,7 +363,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>Перейдіть потім в "System Settings" &gt; System Administration &gt;Startup and Shutdown &gt;Service Manager, поставте галочку в полі для <span class="highlight-3">Nepomuk Search Module</span>, а потім натисніть <span class="highlight-3">Apply</span>.</p>
 
-							<p>Після того перейдіть в System Settings > Workspace Appearance and Behavior &gt; Desktop Search &gt; Basic Settings, і поставте галочки у ящику <span class="highlight-3">Enable Nepomuk Semantic Desktop</span> i <span class="highlight-3">Enable Strigi Desktop File Indexer</span>, а потім нажміть <span class="highlight-3">Apply</span>. Зверніть увагу, що обсяг пам'яті, виділеної в базі даних Nepomuk може бути скоригована в вкладці <span class="highlight-3">Advanced Settings</span> .</p>
+							<p>Після того перейдіть в System Settings &gt; Workspace Appearance and Behavior &gt; Desktop Search &gt; Basic Settings, і поставте галочки у ящику <span class="highlight-3">Enable Nepomuk Semantic Desktop</span> i <span class="highlight-3">Enable Strigi Desktop File Indexer</span>, а потім нажміть <span class="highlight-3">Apply</span>. Зверніть увагу, що обсяг пам'яті, виділеної в базі даних Nepomuk може бути скоригована в вкладці <span class="highlight-3">Advanced Settings</span> .</p>
 
 							<p>Сесія KDE повинна бути перезапущеною, щоб індексація вступила в силу. Нагадуєм, що перше повторення індексації забере багато часу. <a href="http://nepomuk.kde.org/"> Для детальної інформації про Nepomuk нажміть сюди</a>. </p>
 
@@ -382,7 +382,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>KDE потрібно 15% вільного місця на розділі, де знаходиться каталог /tmp. Якщо Ви працюєте з розділом повним на 95%, Ви не зможете увійти в KDE і будете скинуті в термінал.</p>
 
-							<p>Те ж саме відноситься і до KDM,там Ви зможете зареєструватися, але не зможете увійти в KDE. Рішення полягає в тому, щоб увійти в термінал, і очистити непотрібні програми та файли.</p>
+							<p>Те ж саме відноситься і до sddm,там Ви зможете зареєструватися, але не зможете увійти в KDE. Рішення полягає в тому, щоб увійти в термінал, і очистити непотрібні програми та файли.</p>
 
 							<p>Ви можете використовувати інший віконний менеджер, який не вимагає стільки місця від системи (Наприклад fluxbox який вже присутній при установці aptosid) або Ви можете за допомогою aptosid live-CD/DVD і команди для чистки розділу, щоб завантажитися в KDE.
 .</p>
@@ -454,7 +454,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

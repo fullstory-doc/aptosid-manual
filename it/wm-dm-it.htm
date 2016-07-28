@@ -381,7 +381,7 @@ apt-get install virtuoso-minimal strigi-client
 </pre>
 							<p>KDE necessita di un 5% di allocazioni libere nella partizione in cui risiede la cartella /tmp per i file temporanei creati all'accesso. Se state lavorando con una partizione piena al 95% potreste non essere in grado di entrare in KDE e verrete fatti scendere alla tty.</p>
 
-							<p>Lo stesso succede con il con il kdm in looping che non vi lascia entrare. Una soluzione è autenticarsi in una tty (o richiamarla con un ctrl-alt-F1 ad es.) così potrete cancellare o ripulire alcune applicazioni o file non più necessari</p>
+							<p>Lo stesso succede con il con il sddm in looping che non vi lascia entrare. Una soluzione è autenticarsi in una tty (o richiamarla con un ctrl-alt-F1 ad es.) così potrete cancellare o ripulire alcune applicazioni o file non più necessari</p>
 
 							<p>Alternativamente, per accedere al sistema potete usare un gestore X window che non richiede così tanto spazio libero al sistema (per esempio, il gestore X windows fluxbox è già presente in una installazione aptosid), o fare chroot usando un live-CD/DVD di aptosid per ripulire la partizione per poi riuscire ad avviare di nuovo KDE.</p>
 
@@ -455,7 +455,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

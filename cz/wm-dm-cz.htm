@@ -390,8 +390,8 @@ apt-get install virtuoso-minimal strigi-client
 
 <!-- 							<p>KDE needs a 5% allocation of the partition where the directory /tmp resides for temporary files to be created upon login. If you are running with a 95% full partition you will not be able to login with KDE and will be dropped into tty.</p> -->
 							<p>KDE potřebuje 5% alokovaného místa na diskovém oddílu, kde se nachází /tmp, pro dočasné soubory vytvářené při přihlášení. Jestli pracujete s diskovým oddílem zaplněným z 95%, tak se nebudete moci s KDE přihlásit a skončíte v tty.</p>
-<!-- 							<p>The same goes for kdm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p> -->
-							<p>To samé platí pro smyčku spouštění kdm s nemožností se přihlásit. Východiskem je opět přihlášení do tty a smazání a/nebo vyčištění nepotřebných aplikací nebo souborů.</p>
+<!-- 							<p>The same goes for sddm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p> -->
+							<p>To samé platí pro smyčku spouštění sddm s nemožností se přihlásit. Východiskem je opět přihlášení do tty a smazání a/nebo vyčištění nepotřebných aplikací nebo souborů.</p>
 <!-- 							<p>Alternatively you can use an X window manager that does not require so much space from the system ( for instance fluxbox is already present in a aptosid install), or chroot using a aptosid live-CD/DVD to clean out the partition to allow you to boot to KDE.</p> -->
 							<p>Alternativně můžete použít správce oken X, který tolik místa pro systém nevyžaduje (to může být například fluxbox, který se již v instalaci aptosidu nachází), nebo můžete použít chroot z live-CD/DVD aptosidu pro vyčištění diskového oddílu, aby vám bylo příhlášení do KDE umožněno.</p>
 <!-- 							<p>85% is the recommended absolute maximum for a partition that KDE accesses for its /tmp files.(15% free).</p> -->
@@ -472,7 +472,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

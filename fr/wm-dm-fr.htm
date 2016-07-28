@@ -388,9 +388,9 @@ apt-get install virtuoso-minimal strigi-client
 							<p>KDE a besoin de 5% d'espace libre sur la partition pour créer dans le repertoire /tmp les fichiers temporaires lors de la connexion. Si vous utilisez 95% de votre partition, vous ne pourrez pas vous connecter avec KDE et serez obligés de rester en mode console.</p>
 
 							<!--- ####
-							<p>The same goes for kdm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p>
+							<p>The same goes for sddm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p>
 							#### -->
-							<p>Il en est de même avec kdm qui ne permettra aucune connexion. Même s'il vous demande le login il ne vous connectera pas. La solution est de débuter une session en mode console et de supprimer quelques fichiers ou applications dont vous n'avez plus besoin.</p>
+							<p>Il en est de même avec sddm qui ne permettra aucune connexion. Même s'il vous demande le login il ne vous connectera pas. La solution est de débuter une session en mode console et de supprimer quelques fichiers ou applications dont vous n'avez plus besoin.</p>
 
 							<!--- ####
 							<p>Alternatively you can use an X window manager that does not require so much space from the system ( for instance fluxbox is already present in a aptosid install), or chroot using a aptosid live-CD/DVD to clean out the partition to allow you to boot to KDE.</p>
@@ -498,7 +498,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

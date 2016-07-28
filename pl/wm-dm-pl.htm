@@ -382,7 +382,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>KDE potrzebuje 5% alokacji partycji, na której w katalogu /tmp znajdują się na pliki tymczasowe, które powstaną podczas logowania. Jeśli korzystasz z partycji zapełnionej w 95% nie będziesz w stanie zalogować się do KDE i będziesz przemieszczony do tty (terminala).</p>
 
-							<p>To samo dotyczy zapętlenia w kdm, nie pozwalającego zalogować się. Rozwiązaniem jest zalogowanie się do tty, dzięki czemu można usunąć i/lub wyczyścić niektóre nie potrzebne już programy i pliki.</p>
+							<p>To samo dotyczy zapętlenia w sddm, nie pozwalającego zalogować się. Rozwiązaniem jest zalogowanie się do tty, dzięki czemu można usunąć i/lub wyczyścić niektóre nie potrzebne już programy i pliki.</p>
 
 							<p>Alternatywnie możesz użyć takiego menedżera okien, który nie wymaga tak wiele miejsca w systemie (na przykład fluxbox, który jest już obecny w instalacji aptosida) lub polecenia chroot z aptosid live-CD/DVD do czyszczenia partycji, co pozwoli na wystartowanie KDE.</p>
 
@@ -456,7 +456,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

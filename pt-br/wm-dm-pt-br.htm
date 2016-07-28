@@ -363,7 +363,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>Em System Settings &gt; System Administration &gt; Startup and Shutdown &gt;Service Manager, ative <span class="highlight-3">Nepomuk Search Module</span> depois clique em <span class="highlight-3">Apply</span>.</p>
 
-							<p>Em System Settings > Workspace Appearance and Behavior &gt; Desktop Search &gt; Basic Settings, ative <span class="highlight-3">Enable Nepomuk Semantic Desktop</span> and <span class="highlight-3">Enable Strigi Desktop File Indexer</span> marcando as respetivas "checkboxes", e clicando depois em <span class="highlight-3">Apply</span>. tenha em conta que pode ajustar a memória que vai ser reservada para o sistema de busca em <span class="highlight-3">Advanced Settings</span> tab.</p>
+							<p>Em System Settings &gt; Workspace Appearance and Behavior &gt; Desktop Search &gt; Basic Settings, ative <span class="highlight-3">Enable Nepomuk Semantic Desktop</span> and <span class="highlight-3">Enable Strigi Desktop File Indexer</span> marcando as respetivas "checkboxes", e clicando depois em <span class="highlight-3">Apply</span>. tenha em conta que pode ajustar a memória que vai ser reservada para o sistema de busca em <span class="highlight-3">Advanced Settings</span> tab.</p>
 
 							<p>Tem que reiniciar a sessão do KDE para que o serviço de indexação se torne efetivo. Dependendo do número de ficheiros é de esperar que a indexação inicial demore sempre algum tempo.  <a href="http://nepomuk.kde.org/"> Mais informações sobre o Nepomuk </a>. </p>
 
@@ -382,7 +382,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>O KDE precisa que sejam alocados 5% da partição onde está o diretório /tmp, para que seja possível criar os arquivos temporários após o login. Se sua partição estiver 95% cheia, você não vai conseguir abrir o KDE e será levado ao tty (terminal).</p>
 
-							<p>O mesmo vale para quando o KDM entra em loop e não permite que você entre no KDE. Uma solução é logar-se no terminal (tty) e apagar alguns arquivos ou mesmo aplicações que você não usa mais.</p>
+							<p>O mesmo vale para quando o sddm entra em loop e não permite que você entre no KDE. Uma solução é logar-se no terminal (tty) e apagar alguns arquivos ou mesmo aplicações que você não usa mais.</p>
 
 							<p>Uma alternativa seria usar um gerenciador de janelas que não requeira tanto espaço em disco (como o Fluxbox, que já faz parte da instalação padrão do aptosid). Outra seria usar 'chroot' com um CD/DVD-Live do aptosid para limpar sua partição, o que permitiria que você entrasse no KDE.</p>
 
@@ -453,7 +453,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

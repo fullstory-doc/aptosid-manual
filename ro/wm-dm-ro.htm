@@ -382,7 +382,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>KDE are nevoie de 5% din partiția unde rezidă directorul /tmp și sunt create fișierele temporare după login. Dacă partiția voastră este ocupată 95% cu diverse fișiere nu veți putea să vă log-ați în KDE și veți fi redirecționați într-un tty.</p>
 
-							<p>La fel se întâmplă și cu kdm care nu vă lasă să vă log-ați. O soluție este să vă log-ați într-un tty de unde puteți șterge și/sau curăța aplicații sau fișiere de care nu mai aveți nevoie.</p>
+							<p>La fel se întâmplă și cu sddm care nu vă lasă să vă log-ați. O soluție este să vă log-ați într-un tty de unde puteți șterge și/sau curăța aplicații sau fișiere de care nu mai aveți nevoie.</p>
 
 							<p>O altă alternativă ar fi să folosiți un alt manager de ferestre X care are nevoie de mai puțin spațiu pentru rulare (de exemplu 'fluxbox' este deja prezent într-o instalare aptosid) sau utilizând 'chroot' de pe un aptosid live-CD/DVD pentru a curăța partiția și de a putea apoi boota în KDE.</p>
 
@@ -454,7 +454,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Exemple pentru <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

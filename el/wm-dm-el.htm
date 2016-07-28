@@ -382,9 +382,9 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>Το KDE χρειάζεται 5% της κατάτμησης στην οποία βρίσκεται ο φάκελος /tmp για τα μη μόνιμα (temporary) αρχεία που δημιουργούνται κατά την σύνδεση (login). Εάν τρέχετε με μια κατάτμηση που είναι 95% γεμάτη δεν θα μπορέσετε να συνδεθείτε με το KDE και θα 'πέσετε' μέσα στο tty.</p>
 
-							<!--p>The same goes for kdm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p-->
+							<!--p>The same goes for sddm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p-->
 
-							<p>Το ίδιο ισχυεί και όταν το kdm 'κάνει' κύκλους (looping) αλλά δεν σας αφήνει να συνδεθείτε. Μια λύση είναι να συνδεθείτε μέσα στο tty για να μπορέσετε να σβήσετε ή/και να καθαρίσετε το σύστημα από εφαρμογές και αρχεία που δεν χρειάζονται πλέον.</p>
+							<p>Το ίδιο ισχυεί και όταν το sddm 'κάνει' κύκλους (looping) αλλά δεν σας αφήνει να συνδεθείτε. Μια λύση είναι να συνδεθείτε μέσα στο tty για να μπορέσετε να σβήσετε ή/και να καθαρίσετε το σύστημα από εφαρμογές και αρχεία που δεν χρειάζονται πλέον.</p>
 
 							<!--p>Alternatively you can use an X window manager that does not require so much space from the system ( for instance fluxbox is already present in a aptosid install), or chroot using a aptosid live-CD/DVD to clean out the partition to allow you to boot to KDE.</p-->
 
@@ -484,7 +484,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

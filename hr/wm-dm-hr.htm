@@ -380,7 +380,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>KDE needs a 5% allocation of the partition where the directory /tmp resides for temporary files to be created upon login. If you are running with a 95% full partition you will not be able to login with KDE and will be dropped into tty.</p>
 
-							<p>The same goes for kdm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p>
+							<p>The same goes for sddm looping but not allowing you to log in. A solution is to log into a tty so you can delete and/or clear out some no longer needed applications or files</p>
 
 							<p>Alternatively you can use an X window manager that does not require so much space from the system ( for instance fluxbox is already present in an aptosid install), or chroot using an aptosid live-CD/DVD to clean out the partition to allow you to boot to KDE.</p>
 
@@ -451,7 +451,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

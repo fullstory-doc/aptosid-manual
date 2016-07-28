@@ -382,7 +382,7 @@ apt-get install virtuoso-minimal strigi-client
 </pre>
 							<p>KDE benötigt für den Anmeldevorgang 5% der Partition, auf der sich /tmp befindet, zum Erstellen der nötigen temporären Dateien. Wenn die Partition zu 95% voll ist, kann KDE nicht gestartet werden, und man bekommt nur Zugang zu einer TTY-Konsole.</p>
 
-							<p>Gleiches gilt, falls man eine Endlosschleife des KDM-Anmeldedialogs erhält. Die Lösung ist, in eine TTY-Konsole einzuloggen und das Dateisystem aufzuräumen, nicht benötigte Dateien zu löschen.</p>
+							<p>Gleiches gilt, falls man eine Endlosschleife des sddm-Anmeldedialogs erhält. Die Lösung ist, in eine TTY-Konsole einzuloggen und das Dateisystem aufzuräumen, nicht benötigte Dateien zu löschen.</p>
 
 							<p>Alternativ dazu kann eine Desktopumgebung gewählt werden, welche nicht so viele Ressourcen benötigt (<em>fluxbox</em> wird mit aptosid ausgeliefert und steht auf einem installierten System zur Verfügung). Auch kann man von der Live-CD/DVD in einem chroot die betroffene Partition aufräumen.</p>
 
@@ -453,7 +453,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Beispiele für <span class="highlight-3">update-rc.d &lt;Desktopumgebung der Wahl&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>

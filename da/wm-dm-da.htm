@@ -382,7 +382,7 @@ apt-get install virtuoso-minimal strigi-client
 
 							<p>KDE skal bruge 5% allokering på partitionen hvor mappen /tmp findes for at oprette temporære filer der dannes ved login. Hvis du har en 95% fuld partition vil du ikke være i stand til at logge ind med KDE, og du vil blive sparket ud i tty.</p>
 
-							<p>Det samme gælder for kdm der looper, men ikke vil tillade dig at logge ind. En mulighed er at logge ind i tty og slette nogle unødvendige filer eller flytte dem, eller eventuel afinstallere nogle programmer du ikke anvender</p>
+							<p>Det samme gælder for sddm der looper, men ikke vil tillade dig at logge ind. En mulighed er at logge ind i tty og slette nogle unødvendige filer eller flytte dem, eller eventuel afinstallere nogle programmer du ikke anvender</p>
 
 							<p>Alternativt kan du gøre brug af en X window manager der ikke kræver så meget plads fra systemet ( for eksempel fluxbox som allerede findes i en aptosid installation), eller chroot med en aptosid live-CD/DVD for at rydde op på partitionen så du kan logge ind i KDE.</p>
 
@@ -456,7 +456,7 @@ update-rc.d &lt;dm&gt; defaults
 							<p>Examples for <span class="highlight-3">update-rc.d &lt;dm&gt; defaults</span>:</p>
 
 <pre>
-update-rc.d kdm defaults
+update-rc.d sddm defaults
 </pre>
 
 <pre>
