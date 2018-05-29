@@ -22,11 +22,11 @@
 <!--sidux-manual Operating System Manual menu-version-02.08.2010.07.09 -->
 <!-- menu last updated by bluewater 2010.07.09 1145 hrs UTC -->
 	<div id="menu-header">
-<a href="http://sidux.com/"><img src="../lib/logos/manual-sidux-logo.png" title="Главна страница на sidux.com, форуми и вики" alt="sidux.com лого" /></a>
+<a href="http://aptosid.com/"><img src="../lib/logos/manual-sidux-logo.png" title="Главна страница на aptosid.com, форуми и вики" alt="aptosid.com лого" /></a>
 	</div>
 	<ul id="top-list">
 		<li><a href="manual-search-bg.htm#search-on"> <img src="../lib/logos/manual-search-22x22.png" title="Търсене в ръководството" alt="Търсене" />Търсене</a> </li>
-		<li><a href="http://manual.sidux.com/meta-manual">Community Software Selections</a></li>
+		<li><a href="http://manual.aptosid.com/meta-manual">Community Software Selections</a></li>
 	</ul>
 	<div id="flags-2">
 			<a href="../flag-index.html"><img src="../lib/logos/sidux-lang-100x64.png" title="Избор на друг език - choose another language" alt="превключване на езика" /></a>
@@ -341,11 +341,11 @@
 <pre>
 #sidux
 # Free University Berlin/ spline (Student Project LInux NEtwork), Germany
-deb ftp://ftp.spline.de/pub/sidux/debian/ sid main fix.main
-#deb-src ftp://ftp.spline.de/pub/sidux/debian/ sid main fix.main
+deb ftp://ftp.spline.de/pub/aptosid.combian/ sid main fix.main
+#deb-src ftp://ftp.spline.de/pub/aptosid.combian/ sid main fix.main
 </pre>
 
-							<p>Пълните настройки за включването на хранилищата за свободен и несвободен софтуер, са винаги достъпни по адресите <a href="http://sidux.com/files/misc/sources.list.d/sidux.list">sidux.list</a> и <a href="http://sidux.com/files/misc/sources.list.d/debian.list">debian.list</a>.:</p>
+							<p>Пълните настройки за включването на хранилищата за свободен и несвободен софтуер, са винаги достъпни по адресите <a href="http://aptosid.com/files/misc/sources.list.d/sidux.list">sidux.list</a> и <a href="http://aptosid.com/files/misc/sources.list.d/debian.list">debian.list</a>.:</p>
 <pre>
 #Debian
 # Unstable
@@ -369,11 +369,11 @@ deb http://ftp.us.debian.org/debian/ unstable main contrib non-free
 <pre># apt-get update
 	(което извежда )
 	......
-Get:1 http://sidux.com sid Release.gpg [189B]
-Get:2 http://sidux.com sid Release.gpg [189B]
-Get:3 http://sidux.com sid Release.gpg [189B]
+Get:1 http://aptosid.com sid Release.gpg [189B]
+Get:2 http://aptosid.com sid Release.gpg [189B]
+Get:3 http://aptosid.com sid Release.gpg [189B]
 Get:4 http://ftp.de.debian.org unstable Release.gpg [189B]
-Get:5 http://sidux.com sid Release [34.1kB]
+Get:5 http://aptosid.com sid Release [34.1kB]
 Get:6 http://ftp.de.debian.org unstable Release [79.6kB]
 </pre>
 
@@ -532,7 +532,7 @@ man apt-mark
 	<div class="divider" id="apt-upgrade">
 				<h2>Обновяване на инсталирана система - dist-upgrade - Overview</h2>
 
-							<p>Ако цялата система (т.е. всички пакети в нея) трябва да бъде обновена, това се извършва с <span class="highlight-3">dist-upgrade</span>. Винаги проверявайте текущите предупреждения онлайн на основния уебсайт на <a href="http://sidux.com">sidux</a>, и ги сравнявайте с пакетите които вашата система иска да обнови при dist-upgrade. Ако трябва за блокирате от обновяване (<span class="highlight-3">hold</span>) конкретен пакет, обърнете се към   <a href="sys-admin-apt-bg.htm#apt-downgrade">Понижаване във версия (downgrade) и/или задържане на версия на пакети (Hold)</a></p>
+							<p>Ако цялата система (т.е. всички пакети в нея) трябва да бъде обновена, това се извършва с <span class="highlight-3">dist-upgrade</span>. Винаги проверявайте текущите предупреждения онлайн на основния уебсайт на <a href="http://aptosid.com">sidux</a>, и ги сравнявайте с пакетите които вашата система иска да обнови при dist-upgrade. Ако трябва за блокирате от обновяване (<span class="highlight-3">hold</span>) конкретен пакет, обърнете се към   <a href="sys-admin-apt-bg.htm#apt-downgrade">Понижаване във версия (downgrade) и/или задържане на версия на пакети (Hold)</a></p>
 
 							<p>Използването на метода за обновяване 'upgrade' (вместо dist-upgrade) не се препоръчва в 'debian sid' - затова използвайте само dist-upgrade.</p>
 
@@ -597,7 +597,7 @@ Do you want to continue [Y/n]?<span class="highlight-3">Y </span>
 				      <h3> dist-upgrade - The Steps</h3>
 
 <div class="box block">
-			<div class="highlight-2">НИКОГА не извършвайте dist-upgrade обновяване докато сте в графичния интерфейс на X<div class="highlight-4"> Винаги проверявайте текущите предупреждения на основния уебсайт на <a href="http://sidux.com">sidux</a>. Целта им е да ви предпазят от възможни проблеми, и те се обновяват ежедневно.</div>
+			<div class="highlight-2">НИКОГА не извършвайте dist-upgrade обновяване докато сте в графичния интерфейс на X<div class="highlight-4"> Винаги проверявайте текущите предупреждения на основния уебсайт на <a href="http://aptosid.com">sidux</a>. Целта им е да ви предпазят от възможни проблеми, и те се обновяват ежедневно.</div>
 <pre>
 ## Log out of KDE.  
 ## Go to Textmode by doing Ctrl+Alt+F1
@@ -682,7 +682,7 @@ sidux-manual-en:
   Candidate:01.12.2007.06.03-1
   Version table:
      01.12.2007.06.03-1 0
-        500 http://sidux.com sid/main Packages
+        500 http://aptosid.com sid/main Packages
 </pre>
 			<p><a href= "http://www.debian.org/doc/user-manuals#apt-howto">Пълно описание на APT-системата може да намерите в APT-HOWTO</a> </p>
 
